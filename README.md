@@ -1,6 +1,6 @@
 # SelfGRL
 
-Minimal implementation of **SelfGRL: Self-Organized Graph Representation Learning Inspired by Helmholtz Free Energy Minimization**.
+Source code of paper **SelfGRL: Self-Organized Graph Representation Learning Inspired by Helmholtz Free Energy Minimization**.
 
 ---
 
@@ -29,11 +29,11 @@ Minimal implementation of **SelfGRL: Self-Organized Graph Representation Learnin
 
 ## 🚀 Run
 
-Example command to train on **Cora** and **Texa**:
+Example command to train on **Cora** and **Texas**:
 
 ```bash
 python train.py   --dataset Cora --dataset_dir [path_to_datasets] --init_kappa 1.0
-python train.py   --dataset Cora --dataset_dir [path_to_datasets] --init_kappa 0.2
+python train.py   --dataset Texas --dataset_dir [path_to_datasets] --init_kappa 0.2
 ```
 
 You can modify the arguments to experiment with other datasets such as `CiteSeer`, `PubMed`, or `Photo`.
