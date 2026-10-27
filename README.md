@@ -43,13 +43,10 @@ You can modify the arguments to experiment with other datasets such as `CiteSeer
 ## 📁 Project Structure
 
 ```
-SelfGRL_code/
-├── train.py         # Encoder, training loop, and evaluation entry point
-├── loss.py          # Bayesian thermostat objective
-├── data.py          # Dataset loading and evaluation utilities
-├── transforms.py    # Edge dropout and feature masking
+SelfGRL/
 ├── README.md
-├── datasets/        # Downloaded datasets
-├── checkpoints/     # Generated encoder checkpoints
-└── results/         # Generated evaluation summaries
+├── data.py          # Dataset loading and evaluation utilities
+├── loss.py          # Bayesian thermostat objective
+├── train.py         # Encoder, training loop, and evaluation entry point
+└── transforms.py    # Edge dropout and feature masking
 ```
